@@ -1,0 +1,7 @@
+| Method                            | Mean       | Error    | StdDev   | Gen0    | Gen1   | Allocated |
+|---------------------------------- |-----------:|---------:|---------:|--------:|-------:|----------:|
+| GetDataWithSelect                 |   486.1 us |  9.70 us | 14.52 us | 19.5313 | 3.9063 | 326.86 KB |
+| GetDataWithSelectAndSplitQuering  |   464.2 us |  8.74 us |  8.18 us | 19.5313 | 3.9063 | 327.95 KB |
+| GetDataWithInclude                | 1,019.2 us | 19.74 us | 31.31 us | 44.9219 | 9.7656 | 739.67 KB |
+| GetDataWithIncludeAndSplitQuering | 1,078.8 us | 16.55 us | 13.82 us | 44.9219 | 9.7656 | 740.84 KB |
+| GetDataWithDictionary             |   512.2 us | 10.19 us | 17.31 us | 16.6016 | 1.9531 | 285.63 KB |
