@@ -1,4 +1,4 @@
-﻿namespace IncludeVsDictionary;
+﻿namespace IncludeVsDictionary.Benchmarks.IncludeVsDictionary.Models;
 public class EmployeeDto
 {
     public int Id { get; set; }

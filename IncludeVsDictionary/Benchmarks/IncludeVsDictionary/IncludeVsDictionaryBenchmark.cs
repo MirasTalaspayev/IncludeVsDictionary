@@ -1,7 +1,8 @@
 ﻿using BenchmarkDotNet.Attributes;
+using IncludeVsDictionary.Benchmarks.IncludeVsDictionary.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace IncludeVsDictionary;
+namespace IncludeVsDictionary.Benchmarks.IncludeVsDictionary;
 
 [MemoryDiagnoser]
 public class IncludeVsDictionaryBenchmark

@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using IncludeVsDictionary.Benchmarks.IncludeVsDictionary.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace IncludeVsDictionary;
+namespace IncludeVsDictionary.Benchmarks.IncludeVsDictionary;
 public class AppDbContext : DbContext
 {
     public DbSet<Employee> Employees { get; set; }

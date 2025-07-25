@@ -1,0 +1,24 @@
+| Method           | _size | Mean         | Error     | StdDev    | Allocated |
+|----------------- |------ |-------------:|----------:|----------:|----------:|
+| SetInsert        | 1     |     14.14 ns |  0.019 ns |  0.016 ns |         - |
+| DictionaryInsert | 1     |     10.51 ns |  0.032 ns |  0.025 ns |         - |
+| SetInsert        | 10    |    152.52 ns |  0.208 ns |  0.195 ns |         - |
+| DictionaryInsert | 10    |     91.59 ns |  0.334 ns |  0.296 ns |         - |
+| SetInsert        | 100   |  1,471.31 ns |  1.264 ns |  1.055 ns |         - |
+| DictionaryInsert | 100   |    908.18 ns |  3.675 ns |  3.438 ns |         - |
+| SetInsert        | 1000  | 14,794.27 ns | 23.724 ns | 22.191 ns |         - |
+| DictionaryInsert | 1000  |  9,382.15 ns | 33.280 ns | 31.130 ns |         - |
+
+
+
+
+| Method        | _size | Mean         | Error      | StdDev     | Allocated |
+|-------------- |------ |-------------:|-----------:|-----------:|----------:|
+| SetGet        | 1     |     4.295 ns |  0.0107 ns |  0.0089 ns |         - |
+| DictoinaryGet | 1     |     1.869 ns |  0.0199 ns |  0.0155 ns |         - |
+| SetGet        | 10    |    46.362 ns |  0.0802 ns |  0.0711 ns |         - |
+| DictoinaryGet | 10    |    19.969 ns |  0.0999 ns |  0.0886 ns |         - |
+| SetGet        | 100   |   471.270 ns |  1.3472 ns |  1.1249 ns |         - |
+| DictoinaryGet | 100   |   197.342 ns |  0.4205 ns |  0.3728 ns |         - |
+| SetGet        | 1000  | 4,701.661 ns |  7.5950 ns |  7.1043 ns |         - |
+| DictoinaryGet | 1000  | 1,978.225 ns | 11.9583 ns | 11.1858 ns |         - |

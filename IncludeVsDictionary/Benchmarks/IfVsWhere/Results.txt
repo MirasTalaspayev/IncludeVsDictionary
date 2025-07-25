@@ -1,0 +1,10 @@
+| Method      | _size | Mean          | Error      | StdDev     | Gen0   | Allocated |
+|------------ |------ |--------------:|-----------:|-----------:|-------:|----------:|
+| WhereQuery  | 1     |    13.0671 ns |  0.2423 ns |  0.2267 ns | 0.0043 |      72 B |
+| IfStatement | 1     |     0.4132 ns |  0.0081 ns |  0.0063 ns |      - |         - |
+| WhereQuery  | 10    |    24.5907 ns |  0.0830 ns |  0.0693 ns | 0.0043 |      72 B |
+| IfStatement | 10    |     4.5485 ns |  0.0274 ns |  0.0228 ns |      - |         - |
+| WhereQuery  | 100   |   163.2613 ns |  0.3374 ns |  0.2817 ns | 0.0043 |      72 B |
+| IfStatement | 100   |    44.5621 ns |  0.2740 ns |  0.2288 ns |      - |         - |
+| WhereQuery  | 1000  | 1,524.6031 ns | 16.2534 ns | 14.4082 ns | 0.0038 |      72 B |
+| IfStatement | 1000  |   399.3460 ns |  2.5502 ns |  1.9910 ns |      - |         - |
